@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Assiment 1</title>
+    </head>
+    <body>
+        <form action="file:///E:/Elzero_web/HTML/Elzero_W/0x06HTML/File1.html" method="get">
+            <div>
+                <label hidden>Token</label>
+                <input type="text" name="Token" value="b92f1fc2fce391ad7af633723afd3055" hidden>
+            </div>
+            <div>
+                <label>Email  </label>
+                <input type="email" name="email" value="o@o.com" readonly>
+            </div>
+            <div>
+                <label >Username</label>
+                <input  type="text" name="User" autofocus minlength="5" maxlength="20" required>
+            </div>
+            <hr>
+            <div>
+                <input id="Planning" type="checkbox" name="Skills" value="Planning" checked>
+                <label for="Planning">Planning</label>
+            </div>
+            <div>
+                <input id="Analysis" type="checkbox" name="Skills" value="Analysis">
+                <label for="Analysis">Analysis</label>
+            </div>
+            <div>
+                <input id="Advanced" type="checkbox" name="Skills" value="Advanced Search">
+                <label for="Advanced">Advanced Search</label>
+            </div>
+            <div>
+                <input id="Logical" type="checkbox" name="Skills" value="Logical Thinking">
+                <label for="Logical">Logical Thinking</label>
+            </div>
+            <div>
+                <input id="Problem" type="checkbox" name="Skills" value="Problem Solving">
+                <label for="Problem">Problem Solving</label>
+            </div>
+            <hr>
+            <div>
+                <input id="Scrum" type="radio" name="Jop" value="Scrum Master" checked >
+                <label for="Scrum">Scrum Master</label>
+            </div>
+            <div>
+                <input id="Project" type="radio" name="Jop" value="Project Manager">
+                <label for="Project">Project Manager</label>
+            </div>
+            <div>
+                <input id="Business" type="radio"name="Jop" value="Business Analyst">
+                <label for="Business">Business Analyst</label>
+            </div>
+            <div>
+                <input id="Back-End" type="radio" name="Jop" value="Back-End Developer">
+                <label for="Back-End">Back-End Developer</label>
+            </div>
+            <div>
+                <input id="Front-End" type="radio" name="Jop" value="Front-End Developer">
+                <label for="Front-End">Front-End Developer</label>
+            </div>
+            <hr>
+            <label for="Book">Choose Book</label>
+            <select id="Book">
+                <optgroup label="PHP">
+                    <option>V5.0</option>
+                    <option>V7.0</option>
+                    <option>V8.0</option>
+                </optgroup>
+                <optgroup label="Python">
+                    <option>V2.0</option>
+                    <option>V3.0</option>
+                    <option>V3.9</option>
+                </optgroup>
+            </select>
+            <hr>
+            <textarea name="Brief" cols="40" rows="10" placeholder="Write Here Why You Want To Learn Programming" ></textarea>
+            <hr>
+            <br>
+            <input type="reset" value="Empty">
+            <input type="submit" value="Send">
+        </form>
+    </body>
+</html>
