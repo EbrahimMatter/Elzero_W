@@ -1,0 +1,94 @@
+<!-- Assiment 1 -->
+/* Any Element With Class Title */
+.title {
+}
+
+/* Element With id nav */
+#nav {
+}
+
+/* Any Div */
+div {
+}
+
+/* Any heading With h2 */
+h2 {
+}
+
+<!-- Assiment 2-->
+ <!-- External Style -->
+<link rel="stylesheet" href="css/file.css" />
+
+<!-- Head Style -->
+<style>
+p {
+  color: red;
+}
+
+</style>
+
+/*In Line Style */
+<p style="color: blue;">This Is Our Paragraph</p>
+
+<!-- Assiment 3-->
+
+ <!-- Write Path -->
+<link rel="stylesheet" href="" />
+
+<!-- Assiment 4-->
+
+<!-- Write Path -->
+<link rel="stylesheet" href="" />
+
+<!-- Assiment 5-->
+/* Valid */
+._user-name {
+}
+
+/* valid */
+.-user-name {
+}
+
+/* Not Valid */
+.1user-name {
+}
+
+/* Not Valid */
+.@user-name {
+}
+
+/* Not Valid */
+.user@name {
+}
+
+/* Valid */
+._user10name {
+}
+
+/* Valid */
+.u {
+}
+
+
+/* Assiment 6*/
+
+
+/* Bad */
+.USERNAME {
+}
+
+/* Bad */
+.UserName {
+}
+
+/* Good */
+.user-name {
+}
+
+/* Bad */
+.userName {
+}
+
+/* Bad */
+.usernameprofile {
+}
