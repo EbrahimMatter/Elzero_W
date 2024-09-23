@@ -1,0 +1,54 @@
+.shadow{
+    text-transform: capitalize;
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 1px 1px 0 #f04235, 2px 2px 0 #2196f3, 3px 3px 0 #962cb3;
+}
+
+/* Assignment 2  */
+
+.one{
+    text-align: center;
+    text-transform:uppercase ;
+}
+.two{
+    text-align: center;
+    text-transform:capitalize ;
+}
+.three{
+    text-align: center;
+    text-transform:lowercase ;
+}
+
+/* Assignment 3  */
+
+.lorem,
+.lorem1,
+.lorem2{
+    color: black;
+    background-color: #eeeeee;
+    width: 400px;
+    padding: 10px;
+    margin: 10px;
+}
+.lorem2{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.link{
+    text-transform: capitalize;
+    background-color: #009688;
+    font-size: 50px;
+    margin: 20px auto;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    width: fit-content;
+    padding: 10px 20px;
+    color: white;
+    border-bottom:10px solid #00514a ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
